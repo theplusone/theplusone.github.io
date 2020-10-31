@@ -4,6 +4,9 @@ _Note: depending on the regions you unlock and the gear you have, the numbers
 here could vary a bit. The calculations here are less about seeing exact DPS and
 more about seeing what weapons are better than others._
 
+Sorry it took so long. Figuring out how to hack the relic stuff into the DPS
+calcs took some time.
+
 ## Gear setups
 
 ### Melee
@@ -22,7 +25,16 @@ full guthan's), 3t verac's flail (wearing full verac's), 4t dharok's greataxe
 
 ### Ranged
 
-TBD...
+Armadyl helmet, ava's assembler, necklace of anguish, armadyl chestplate,
+armadyl chainskirt, rune gloves
+
+Includes T3 "Quick Shot" relic that grants halved attack speed (rounded up), 10%
+increased damage, and 100% increased accuracy. Similar to melee, assuming the
+increased accuracy is calculated by multiplying the final max attack roll by 2
+and the increased damage is calculated by multiplying the final max hit by 1.10.
+
+3t acb (ruby drag bolts e), 2t crystal bow (wearing full crystal), 3t heavy
+ballista, 2t karil's crossbow, 1t blowpipe
 
 ## Melee calcs
 
@@ -85,3 +97,38 @@ Jal-Zek also has no additional stab/slash/crush defense, just a 260 def stat.
 10.609 - Verac's            - 3t
 10.581 - Guthan's           - 3t
 ```
+
+## Range calcs
+
+### Verzik p3
+
+TBD...
+
+## DIY
+
+You will be modifying some spreadsheet internals, so I recommend making a
+separate copy of the DPS spreadsheet solely for Leagues use. When switching
+between combat styles, be sure to apply the new relic changes so you have
+accurate numbers. With enough time and effort, I could probably add some toggles
+that'd make this a lot easier, but for now, here's how you can manually hack the
+relics into the DPS spreadsheet:
+
+### Melee relic
+
+Accuracy: change 'Dps p1'!D22 from `=INT(D21)` to `=INT(D21)*1.25`
+
+Attack speed: go to 'Items' sheet, find melee weapon and it's attack speed
+column (column U), divide by 2 and round up
+
+### Range relic
+
+Accuracy: change 'Dps p1'!D22 from `=INT(D21)` to `=INT(D21)*2.00`
+
+Max hit: wrap the giant formula at 'Dps p1'!D107 in parentheses, multiply it
+by 1.10, and round down.
+
+Attack speed: Dealing with this one sucks because ranged attack speed can vary
+based on attack style. This is a really shitty way of doing it, but a quick way
+to do this is to set the attack speed manually at 'Dps p1'!D134. What I've done
+is change D135 to `=D132/IF(Input!M35, Input!M35, D134)`; this changes the
+attack speed only if I have a custom one set on the main sheet. 
