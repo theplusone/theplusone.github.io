@@ -34,7 +34,7 @@ increased accuracy is calculated by multiplying the final max attack roll by 2
 and the increased damage is calculated by multiplying the final max hit by 1.10.
 
 3t acb (ruby drag bolts e), 2t crystal bow (wearing full crystal), 3t heavy
-ballista (dragon javelin), 2t karil's crossbow, 1t blowpipe
+ballista (dragon javelin), 2t karil's crossbow, 1t blowpipe (d darts)
 
 ## Melee calcs
 
@@ -86,16 +86,7 @@ nteventhrice has a fire max cape
 Jal-Zek also has no additional stab/slash/crush defense, just a 260 def stat.
 
 ```
-19.343 - Scythe (charged)   - 3t
-19.046 - Dharok's           - 4t
-18.897 - Rapier             - 2t
-18.049 - Whip               - 2t
-17.285 - Z hasta            - 2t
-17.076 - Sara sword         - 2t
-16.508 - Scythe (uncharged) - 3t
-14.991 - BGS                - 3t
-10.609 - Verac's            - 3t
-10.581 - Guthan's           - 3t
+<needs to be redone -- still had 200 def reduction from maiden applied>
 ```
 
 ## Range calcs
@@ -106,12 +97,19 @@ Verzik's +230 range defense doesn't matter much when the relic doubles your
 accuracy.
 
 ```
-24.506 - Blowpipe    - 1t (!!!)
-15.895 - ACB         - 3t
-14.789 - Crystal bow - 2t
-14.480 - H. ballista - 3t
-11.851 - K. crossbow - 2t
+16.282 - Blowpipe    - 1t
+12.147 - ACB         - 3t
+11.201 - Crystal bow - 2t
+10.441 - H. ballista - 3t
+ 7.974 - K. crossbow - 2t
 ```
+
+### Zero-defense maiden
+
+```
+<WIP>
+```
+
 
 ## DIY
 
