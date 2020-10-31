@@ -38,7 +38,8 @@ Keep in mind that Verzik p3 is weak to slash.
 ```
 17.786 - 3t scythe (charged)
 16.388 - 2t whip
-15.596 - 2t rapier
+16.377 - 2t rapier (slash)
+15.596 - 2t rapier (stab)
 15.361 - 2t sara sword
 14.744 - 3t scythe (uncharged)
 14.480 - 3t bgs
