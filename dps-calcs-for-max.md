@@ -4,6 +4,9 @@ _Note: depending on the regions you unlock and the gear you have, the numbers
 here could vary a bit. The calculations here are less about seeing exact DPS and
 more about seeing what weapons are better than others._
 
+**This is a work in progress! Numbers are subject to change, and I keep making
+mistakes, so take them with a grain of salt for now!**
+
 Sorry it took so long. Figuring out how to hack the relic stuff into the DPS
 calcs took some time.
 
@@ -35,6 +38,10 @@ and the increased damage is calculated by multiplying the final max hit by 1.10.
 
 3t acb (ruby drag bolts e), 2t crystal bow (wearing full crystal), 3t heavy
 ballista (dragon javelin), 2t karil's crossbow, 1t blowpipe (d darts)
+
+### Magic
+
+`<TBD>`
 
 ## Melee calcs
 
@@ -91,22 +98,51 @@ Jal-Zek also has no additional stab/slash/crush defense, just a 260 def stat.
 
 ## Range calcs
 
+Range calcs assume ranging pot and **Eagle Eye** (I don't think Rigour is
+obtainable in Trailblazers).
+
 ### Verzik p3
 
 ```
-16.282 - Blowpipe    - 1t
-12.147 - ACB         - 3t
-11.201 - Crystal bow - 2t
-10.441 - H. ballista - 3t
- 7.974 - K. crossbow - 2t
+14.837 - Blowpipe    - 1t
+11.453 - ACB         - 3t
+10.421 - Crystal bow - 2t
+ 9.672 - H. ballista - 3t
+ 7.255 - K. crossbow - 2t
 ```
 
 ### Zero-defense maiden
 
 ```
-<TBD>
+23.228 - Blowpipe    - 1t
+15.294 - ACB         - 3t
+14.120 - Crystal bow - 2t
+13.837 - H. ballista - 3t
+11.201 - K. crossbow - 2t
 ```
 
+### Inferno mager (Jal-Zek)
+
+Zek's lack of HP (i.e. reduced usefulness of ruby bolt specs) compared to the
+other two NPCs may be why crystal bow beats ACB here?
+
+```
+20.204 - Blowpipe    - 1t
+12.787 - Crystal bow - 2t
+12.336 - H. ballista - 3t
+11.856 - ACB         - 3t
+ 9.779 - K. crossbow - 2t
+```
+
+## Mage calcs
+
+Mage calcs assume no pots nor prayer, though I can change this if requested.
+
+`<TBD>`
+
+## Contact
+
+Message `gig#4409` on Discord or `gig` at irc.freenode.net.
 
 ## DIY
 
