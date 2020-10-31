@@ -93,9 +93,6 @@ Jal-Zek also has no additional stab/slash/crush defense, just a 260 def stat.
 
 ### Verzik p3
 
-Verzik's +230 range defense doesn't matter much when the relic doubles your
-accuracy.
-
 ```
 16.282 - Blowpipe    - 1t
 12.147 - ACB         - 3t
@@ -107,7 +104,7 @@ accuracy.
 ### Zero-defense maiden
 
 ```
-<WIP>
+<TBD>
 ```
 
 
