@@ -26,7 +26,7 @@ multiplying the final max attack roll by 1.25.
 
 TBD...
 
-## Calcs
+## Melee calcs
 
 DPS values are rounded to the nearest thousandth, and assume super combat and
 piety.
