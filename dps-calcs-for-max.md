@@ -7,9 +7,6 @@ more about seeing what weapons are better than others._
 _Other note: these calcs do NOT include the bonuses from the t6 relics, only the
 t3 ones._
 
-**This is a work in progress! Numbers are subject to change, and I keep making
-mistakes, so take them with a grain of salt for now!**
-
 Sorry it took so long. Figuring out how to hack the relic stuff into the DPS
 calcs took some time.
 
@@ -100,7 +97,16 @@ nteventhrice has a fire max cape
 Jal-Zek also has no additional stab/slash/crush defense, just a 260 def stat.
 
 ```
-<needs to be redone -- still had 200 def reduction from maiden applied>
+15.829 - Scythe (charged)   - 3t
+15.700 - Rapier             - 2t
+15.453 - Dharok's           - 4t
+14.810 - Whip               - 2t
+14.247 - Z hasta            - 2t
+13.435 - Sara sword         - 2t
+12.828 - Scythe (uncharged) - 3t
+12.552 - BGS                - 3t
+ 8.954 - Verac's            - 3t
+ 8.239 - Guthan's           - 3t
 ```
 
 ## Range calcs
@@ -161,7 +167,6 @@ spell accuracy.
 ```
 12.851 - Sang staff (built-in spell) - 2t
  7.234 - Sang staff (ice barrage)    - 3t
-
 ```
 
 ### Inferno mager (Jal-Zek)
