@@ -10,6 +10,10 @@ t3 ones._
 Sorry it took so long. Figuring out how to hack the relic stuff into the DPS
 calcs took some time.
 
+## Fun fact
+
+You can run these calcs yourself now: https://docs.google.com/spreadsheets/d/1jzxswvfQFWtPx9D1n2LOva4wiw4DPRDf53IVMNu-QEg/edit?usp=sharing
+
 ## Gear setups
 
 ### Melee
