@@ -4,6 +4,9 @@ _Note: depending on the regions you unlock and the gear you have, the numbers
 here could vary a bit. The calculations here are less about seeing exact DPS and
 more about seeing what weapons are better than others._
 
+_Other note: these calcs do NOT include the bonuses from the t6 relics, only the
+t3 ones._
+
 **This is a work in progress! Numbers are subject to change, and I keep making
 mistakes, so take them with a grain of salt for now!**
 
@@ -41,7 +44,11 @@ ballista (dragon javelin), 2t karil's crossbow, 1t blowpipe (d darts)
 
 ### Magic
 
-`<TBD>`
+Sanguinesti staff, infernal cape (assuming people aren't going into wildy),
+occult necklace, ahrim's robetop, ahrim's robeskirt, tormented bracelet
+
+Includes T3 "Double Cast" relic that grants halved attack speed (rounded up)
+and 125% increased accuracy.
 
 ## Melee calcs
 
@@ -136,9 +143,33 @@ other two NPCs may be why crystal bow beats ACB here?
 
 ## Mage calcs
 
-Mage calcs assume no pots nor prayer, though I can change this if requested.
+Mage calcs assume imbued heart and Mystic Might. 
 
-`<TBD>`
+### Verzik p3
+
+```
+12.851 - Sang staff (built-in spell) - 2t
+ 7.234 - Sang staff (ice barrage)    - 3t
+```
+
+### Zero-defense maiden
+
+"NPCs' magic defence comes solely from their Magic stat and their magic defence
+bonuses." - Mod Ash. In other words, Maiden's 0 defense here won't affect your
+spell accuracy.
+
+```
+12.851 - Sang staff (built-in spell) - 2t
+ 7.234 - Sang staff (ice barrage)    - 3t
+
+```
+
+### Inferno mager (Jal-Zek)
+
+```
+13.382 - Sang staff (built-in spell) - 2t
+ 7.541 - Sang staff (ice barrage)    - 3t
+```
 
 ## Contact
 
@@ -171,4 +202,11 @@ Attack speed: Dealing with this one sucks because ranged attack speed can vary
 based on attack style. This is a really shitty way of doing it, but a quick way
 to do this is to set the attack speed manually at 'Dps p1'!D134. What I've done
 is change D135 to `=D132/IF(Input!M35, Input!M35, D134)`; this changes the
-attack speed only if I have a custom one set on the main sheet. 
+attack speed only if I have a custom one set on the main sheet.
+
+### Magic relic
+
+Accuracy: change 'Dps p1'!D22 from `=INT(D21)` to `=INT(D21)*2.25`.
+
+Attack speed: for powered staves, change the attack speed as you would for melee
+weapons. Standard spells may require manual fixing like I did with range.
