@@ -12,7 +12,7 @@ calcs took some time.
 
 ## Fun fact
 
-You can run these calcs yourself now: https://docs.google.com/spreadsheets/d/1jzxswvfQFWtPx9D1n2LOva4wiw4DPRDf53IVMNu-QEg/edit?usp=sharing
+You can run these calcs yourself now: https://docs.google.com/spreadsheets/d/1vp2VcKFzZpd9R_Hu3njy4JBLmP-zL_snjZkISFOKPU8/edit?usp=sharing
 
 ## Gear setups
 
