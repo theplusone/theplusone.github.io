@@ -193,7 +193,7 @@ relics into the DPS spreadsheet:
 
 Accuracy: change 'Dps p1'!D22 from `=INT(D21)` to `=INT(D21)*1.25`
 
-Attack speed: go to 'Items' sheet, find melee weapon and it's attack speed
+Attack speed: go to 'Items' sheet, find melee weapon and its attack speed
 column (column U), divide by 2 and round up
 
 ### Range relic
