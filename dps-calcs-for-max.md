@@ -58,7 +58,7 @@ P3 Verzik is less resistant to slash (relative to crush and stab).
 
 ```
 16.452 - Scythe (charged)   - 3t
-16.256 - Dharok's (slash)   - 4t
+16.166 - Dharok's (slash)   - 4t
 15.414 - Rapier (slash)     - 2t
 15.385 - Whip               - 2t
 14.679 - Rapier (stab)      - 2t
@@ -99,7 +99,7 @@ Jal-Zek also has no additional stab/slash/crush defense, just a 260 def stat.
 ```
 15.829 - Scythe (charged)   - 3t
 15.700 - Rapier             - 2t
-15.453 - Dharok's           - 4t
+15.416 - Dharok's           - 4t
 14.810 - Whip               - 2t
 14.247 - Z hasta            - 2t
 13.435 - Sara sword         - 2t
