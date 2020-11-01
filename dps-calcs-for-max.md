@@ -59,8 +59,8 @@ P3 Verzik is less resistant to slash (relative to crush and stab).
 ```
 16.452 - Scythe (charged)   - 3t
 16.256 - Dharok's (slash)   - 4t
-15.385 - Whip               - 2t
 15.414 - Rapier (slash)     - 2t
+15.385 - Whip               - 2t
 14.679 - Rapier (stab)      - 2t
 14.383 - Z hasta (slash)    - 2t
 14.305 - Dharok's (crush)   - 4t
