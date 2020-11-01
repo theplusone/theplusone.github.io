@@ -79,8 +79,8 @@ can get spec'd down to 0.
 
 ```
 20.397 - Scythe (charged)   - 3t
-20.124 - Dharok's           - 4t
 19.856 - Rapier             - 2t
+19.709 - Dharok's           - 4t
 19.020 - Whip               - 2t
 18.196 - Z hasta            - 2t
 18.168 - Sara sword         - 2t
