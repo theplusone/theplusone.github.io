@@ -55,6 +55,9 @@ When attacking melee or magic, the void ranger is using a 1-way switch, and
 similarly, when attacking ranged or magic, the melee freezer is also using a
 1-way switch.
 
+(overkill DPS would've been more meaningful here, but it doesn't matter since
+TTK already uses overkill DPS)
+
 |        |       |         | Void ranger | Mel. frz. |
 |--------|-------|---------|-------------|-----------|
 | Melee  | Big   | DPS     | 7.598       |           |
@@ -63,10 +66,10 @@ similarly, when attacking ranged or magic, the melee freezer is also using a
 |        | Small | DPS     | 7.807       |           |
 |        |       | TTK (s) | 2.996       |           |
 |        |       | TTK (t) | 4.993       |           |
-| Ranged | Big   | DPS     | 12.65       |           |
+| Ranged | Big   | DPS     | 12.655      |           |
 |        |       | TTK (s) | 2.069       |           |
 |        |       | TTK (t) | 3.448       |           |
-|        | Small | DPS     | 13.10       |           |
+|        | Small | DPS     | 13.099      |           |
 |        |       | TTK (s) | 1.562       |           |
 |        |       | TTK (t) | 2.603       |           |
 | Magic  | Big   | DPS     | 6.774       |           |
