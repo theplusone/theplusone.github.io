@@ -52,30 +52,29 @@ possibilities of big and 6 possibilities of small.
 down)
 
 When attacking melee or magic, the void ranger is using a 1-way switch, and
-similarly, when attacking ranged or magic, the melee freezer is also using a
-1-way switch.
+similarly, when attacking magic, the melee freezer is also using a 1-way switch.
 
 (overkill DPS would've been more meaningful here, but it doesn't matter since
 TTK already uses overkill DPS)
 
 |        |       |         | Void ranger | Mel. frz. |
 |--------|-------|---------|-------------|-----------|
-| Melee  | Big   | DPS     | 7.598       |           |
-|        |       | TTK (s) | 3.789       |           |
-|        |       | TTK (t) | 6.315       |           |
-|        | Small | DPS     | 7.807       |           |
-|        |       | TTK (s) | 2.996       |           |
-|        |       | TTK (t) | 4.993       |           |
-| Ranged | Big   | DPS     | 12.655      |           |
-|        |       | TTK (s) | 2.069       |           |
-|        |       | TTK (t) | 3.448       |           |
-|        | Small | DPS     | 13.099      |           |
-|        |       | TTK (s) | 1.562       |           |
-|        |       | TTK (t) | 2.603       |           |
-| Magic  | Big   | DPS     | 6.774       |           |
-|        |       | TTK (s) | 4.055       |           |
-|        |       | TTK (t) | 6.758       |           |
-|        | Small | DPS     | 7.113       |           |
-|        |       | TTK (s) | 3.082       |           |
-|        |       | TTK (t) | 5.137       |           |
+| Melee  | Big   | DPS     | 7.598       | 8.297     |
+|        |       | TTK (s) | 3.789       | 5.154     |
+|        |       | TTK (t) | 6.315       | 8.590     |
+|        | Small | DPS     | 7.807       | 8.503     |
+|        |       | TTK (s) | 2.996       | 2.350     |
+|        |       | TTK (t) | 4.993       | 3.917     |
+| Ranged | Big   | DPS     | 12.655      | n/a       |
+|        |       | TTK (s) | 2.069       | n/a       |
+|        |       | TTK (t) | 3.448       | n/a       |
+|        | Small | DPS     | 13.099      | n/a       |
+|        |       | TTK (s) | 1.562       | n/a       |
+|        |       | TTK (t) | 2.603       | n/a       |
+| Magic  | Big   | DPS     | 6.774       | 6.877     |
+|        |       | TTK (s) | 4.055       | 4.006     |
+|        |       | TTK (t) | 6.758       | 6.677     |
+|        | Small | DPS     | 7.113       | 7.148     |
+|        |       | TTK (s) | 3.082       | 3.067     |
+|        |       | TTK (t) | 5.137       | 5.112     |
 
