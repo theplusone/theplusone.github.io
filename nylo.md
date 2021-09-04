@@ -7,8 +7,8 @@
 - Duo scale (16 and 8 hp for big and little nylos respectively)
 - Two gear setups
   1. **Range gear**: e. void ranged with 1-way whip and sang (make sure that
-     void bonuses aren't enabled for melee/mage since no void helm switch) (no
-     boots)?
+     void bonuses aren't enabled for melee/mage since no void helm switch) (~~no
+     boots?~~ primordials)
   2. **Melee freeze**: Serp helm, infernal, torture, anc legs, avernic, feros,
      swift blade, primordial boots, b ring (i). Melee freezer does one-way...?
      
@@ -59,33 +59,39 @@ TTK already uses overkill DPS)
 
 |        |       |         | Void ranger | Mel. frz. |
 |--------|-------|---------|-------------|-----------|
-| Melee  | Big   | DPS     | 7.598       | 8.297     |
-|        |       | TTK (s) | 3.789       | 5.154     |
-|        |       | TTK (t) | 6.315       | 8.590     |
-|        | Small | DPS     | 7.807       | 8.503     |
-|        |       | TTK (s) | 2.996       | 2.350     |
-|        |       | TTK (t) | 4.993       | 3.917     |
+| Melee  | Big   | DPS     | 7.802       | 8.297     |
+|        |       | TTK (s) | 3.747       | 5.154     |
+|        |       | TTK (t) | 6.245       | 8.590     |
+|        | Small | DPS     | 8.014       | 8.503     |
+|        |       | TTK (s) | 2.980       | 2.350     |
+|        |       | TTK (t) | 4.967       | 3.917     |
 | Ranged | Big   | DPS     | 12.655      | n/a       |
 |        |       | TTK (s) | 2.069       | n/a       |
 |        |       | TTK (t) | 3.448       | n/a       |
-|        | Small | DPS     | 13.099      | n/a       |
-|        |       | TTK (s) | 1.562       | n/a       |
-|        |       | TTK (t) | 2.603       | n/a       |
-| Magic  | Big   | DPS     | 6.774       | 6.877     |
-|        |       | TTK (s) | 4.055       | 4.006     |
-|        |       | TTK (t) | 6.758       | 6.677     |
-|        | Small | DPS     | 7.113       | 7.148     |
-|        |       | TTK (s) | 3.082       | 3.067     |
-|        |       | TTK (t) | 5.137       | 5.112     |
+|        | Small | DPS     | 13.096      | n/a       |
+|        |       | TTK (s) | 1.563       | n/a       |
+|        |       | TTK (t) | 2.605       | n/a       |
+| Magic  | Big   | DPS     | 6.750       | 6.877     |
+|        |       | TTK (s) | 4.069       | 3.994     |
+|        |       | TTK (t) | 6.782       | 6.657     |
+|        | Small | DPS     | 7.104       | 7.148     |
+|        |       | TTK (s) | 3.086       | 3.067     |
+|        |       | TTK (t) | 5.143       | 5.112     |
 
-A more condensed table:
+A more condensed table. Lower is better:
 
 |        |       |         | Void ranger | Mel. frz. |
 |--------|-------|---------|-------------|-----------|
-| Melee  | Big   | TTK (t) | 6.315       | 8.590     |
-|        | Small | TTK (t) | 4.993       | 3.917     |
+| Melee  | Big   | TTK (t) | 6.245       | 8.590     |
+|        | Small | TTK (t) | 4.967       | 3.917     |
 | Ranged | Big   | TTK (t) | 3.448       | n/a       |
-|        | Small | TTK (t) | 2.603       | n/a       |
-| Magic  | Big   | TTK (t) | 6.758       | 6.677     |
-|        | Small | TTK (t) | 5.137       | 5.112     |
+|        | Small | TTK (t) | 2.605       | n/a       |
+| Magic  | Big   | TTK (t) | 6.782       | 6.677     |
+|        | Small | TTK (t) | 5.143       | 5.112     |
 
+Adding more switches for mage nylo
+
+|        |       |         | Mel. frz. | +Occult | +Torm | +Anc. top |
+|--------|-------|---------|-----------|---------|-------|-----------|
+| Magic  | Big   | TTK (t) | 6.657     | 6.323   | 6.202 | 6.075     |
+|        | Small | TTK (t) | 5.112     | 4.987   | 4.947 | 4.905     |
