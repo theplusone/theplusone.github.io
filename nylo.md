@@ -89,7 +89,7 @@ A more condensed table. Lower is better:
 | Magic  | Big   | TTK (t) | 6.782       | 6.677     |
 |        | Small | TTK (t) | 5.143       | 5.112     |
 
-Adding more switches for mage nylo
+Adding more switches for mage nylo:
 
 |        |       |         | Mel. frz. | +Occult | +Torm | +Anc. top |
 |--------|-------|---------|-----------|---------|-------|-----------|
