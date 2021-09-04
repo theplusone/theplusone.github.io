@@ -78,3 +78,14 @@ TTK already uses overkill DPS)
 |        |       | TTK (s) | 3.082       | 3.067     |
 |        |       | TTK (t) | 5.137       | 5.112     |
 
+A more condensed table:
+
+|        |       |         | Void ranger | Mel. frz. |
+|--------|-------|---------|-------------|-----------|
+| Melee  | Big   | TTK (t) | 6.315       | 8.590     |
+|        | Small | TTK (t) | 4.993       | 3.917     |
+| Ranged | Big   | TTK (t) | 3.448       | n/a       |
+|        | Small | TTK (t) | 2.603       | n/a       |
+| Magic  | Big   | TTK (t) | 6.758       | 6.677     |
+|        | Small | TTK (t) | 5.137       | 5.112     |
+
